@@ -1,0 +1,48 @@
+.update-post-container {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f2f2f2;
+    border-radius: 5px;
+}
+
+.update-post-container h2 {
+    margin-bottom: 20px;
+}
+
+.update-post-container .form-group {
+    margin-bottom: 15px;
+}
+
+.update-post-container label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.update-post-container input,
+.update-post-container textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.update-post-container button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.update-post-container .success-message {
+    color: green;
+}
+
+.update-post-container .error-message {
+    color: red;
+}
